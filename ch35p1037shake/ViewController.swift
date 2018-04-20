@@ -36,7 +36,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 let alert = UIAlertController(title: "You Won", message: "Congrats!", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "OK", style: .cancel))
                 self.present(alert, animated: true)
-                display.text = "You Win."
+                display.text = "You Won."
             }else {
                 display.text = "You Loser. Try Again!!!"
             }
